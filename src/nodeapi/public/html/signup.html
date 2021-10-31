@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../img/brain2.png">
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../src_css/style-sign_up.css" />
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> -->
+    <title>Sign up</title>
+</head>
+
+<body>
+    <div class="h2 text-center mt-3 mb-3" id="page-title">Sign up form
+        <img style="opacity: 0.7" width="100" height="100" src="../img/pen.png "></div>
+
+
+    <form class="login">
+        <div class="container-fluid">
+
+            <div class="mb-3">
+                <label for="validationCustomername" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">Please insert your first name.</div>
+
+            </div>
+            <div class="mb-3">
+                <label for="validationCustomername" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">Please insert your last name.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="inputPassword5" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword5">
+                <div id="passwordHelp" class="form-text">Your password must be 8 or more characters long, contain letters,numbers and special characters, and must not contain spaces or emoji.</div>
+            </div>
+            <button type="button" onclick="return registerForm(this.form)"><img src="../img/submit.png"></button>
+        </div>
+    </form>
+    <div id="failure">
+       <h3> Pls check again the fields</h3>
+    </div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

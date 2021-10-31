@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+    <title>Math game</title>
+</head>
+<body>
+    <!-- <div id="info"><img src=></div> -->
+	<div class="container" style="position: relative;margin-left: 0%;" >
+        <img class="info img-fluid" height="50" width="70" src="info.png">
+        <div class="inf" style="position: absolute;"></div>
+    </div>
+    <img id="math" src="../../img/math1.png" alt="math-img" height="100" width="70">
+
+    <!-- <h1>MATH GAME</h1> -->
+    <div id="container">
+        <div id="score">
+            Score: <span id="scoreValue">0</span>
+        </div>
+        <div id="timer">Timer: <span id="timeremaining"></span> sec</div>
+        
+        <div id="correct"><img src="confetti.gif"></div>
+        <div id="wrong"><img src="try.gif"></div>
+        <div id="question"></div>
+        <div class="answers" id="box1"></div>
+        <div class="answers" id="box2"></div>
+        <div class="answers" id="box3"></div>
+        <div class="answers" id="box4"></div>
+       
+        <!-- <div id="timer">Timer: <span id="timeremaining"></span> sec</div> -->
+        <div id="gameOver">
+            
+        </div>
+    </div>
+    <div id="start">Start</div>
+    <script src="script.js"></script>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+</body>
+</html>

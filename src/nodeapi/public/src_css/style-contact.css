@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Bangers', cursive;
+}
+
+body {
+    background: linear-gradient(#cc2b5e,#753a88);
+    min-height: 100vh;
+}
+
+header ul li a.active,
+header ul li a:hover {
+  /* background: rgba(194, 154, 154, 0.2); */
+     background:none;
+    color: red;
+    border-radius: 30px;
+    transform: translateY(-5px);
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    padding: 50px 0px 50px 15px;
+
+}
+.contact-form {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 29.5px;
+    display: flex;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields,
+.msg {
+    width: 48%;
+    position:relative;
+}
+
+.input-fields .input,
+.msg textarea {
+    margin: 10px;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid;
+    padding: 10px;
+    width: 100%;
+}
+
+.msg textarea {
+    height: 180px;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+}
+
+.btn {
+    width: 17pc;
+    cursor: pointer;
+    border: hidden;
+}
+
+.post {
+    position: absolute;
+    top:12%;
+    right: 6%;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+{
+.wrapper {
+    position: relative;
+    margin-top: 30px;
+    width: 50%;
+    padding: 50px 1px 90px 5px;
+    left:10%;
+  }
+  
+  .post {
+    position: absolute;
+    right: 6%;
+    top: 10%;
+  }
+}
+
+#msg-sent{
+    visibility: hidden;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

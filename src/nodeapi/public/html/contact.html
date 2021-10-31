@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../img/brain2.png">
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../src_css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../src_css/style-contact.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <title>Contact us</title>
+</head>
+
+<body onload="onContact()">
+    <div id="nav-placeholder"></div>
+    
+    <div class="container-fluid justify-content-center">
+        <div class="wrapper" style="background-image: url(../img/airmail1.png);">
+            <div class="contact-form">
+                <div class="input-fields">
+                    <input id="contactName" type="text" class="input" placeholder="Name">
+                    <input id="contactMail" type="text" class="input" placeholder="Email Address">
+                    <input id="contactPhone" type="text" class="input" placeholder="Phone">
+                    <input id="contactSubject" type="text" class="input" placeholder="Subject">
+                </div>
+                <div class="msg">
+                    <textarea id="contactMessage" placeholder="Message"></textarea>
+                    <button class="btn"><i class="fa fa-envelope-open-text fa-3x" onclick="sendContactForm()"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="msg-sent">
+        <h2>Your message was sent successfully❣</h2>
+    </div>
+    <!-- <div id="envelopes">
+        <i class="fa fa-envelope fa-3x"></i>
+        <i class="fa fa-envelope fa-3x"></i>
+        <i class="fa fa-envelope fa-3x"></i>
+        <i class="fa fa-envelope fa-3x"></i>
+        <i class="fa fa-envelope fa-3x"></i>
+        <i class="fa fa-envelope fa-3x"></i>
+        <i class="fa fa-envelope fa-3x"></i>
+        <i class="fa fa-envelope fa-3x"></i>
+        <i class="fa fa-envelope fa-3x"></i>
+        <i class="fa fa-envelope fa-3x"></i>
+      </div> -->
+    <img class="post" src="../img/post.png" width="15%">
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

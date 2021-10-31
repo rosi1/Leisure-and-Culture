@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+body{
+    /* background-image: url(../img/halo.jpg); */
+    /* background: #632d60; */
+    background: #eacda3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #d6ae7b, #eacda3,#632d60);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #d6ae7b, #eacda3,#632d60); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.table{
+    background: #eacda3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #d6ae7b, #eacda3,#632d60);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #d6ae7b, #eacda3,#632d60);
+    text-align: center;
+    border: solid;
+    position: relative;
+    /* top:50%;
+    left:50%;
+    transform: translate(50%,50%); */
+}
+th{
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    font-weight: bolder;
+    font-size: 36px;
+}
+tr td{
+    
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px 40px 20px 40px;
+
+}
+
+
+

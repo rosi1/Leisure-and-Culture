@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../img/brain2.png">
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../src_css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../src_css/style-favo.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" >
+    <title>Leisure culture</title>
+</head>
+
+<body onload="onFavorites()">
+
+    <div id="nav-placeholder"></div>
+    <div class="container-fluid text-center my-5">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-4 col-lg-6">
+                <h1><span id="books">BOOKS</span></h1>
+                <ul id=booksPlaceHolder class="books">
+                    <li id="noFavsBooks" class="visible"><img class="img-fluid" src="../img/stamp.png" alt="stamp"></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-6">
+                <h1><span id="movies">MOVIES</span></h1>
+                <ul id=moviesPlaceHolder class="movies">
+                    <li id="noFavsMovies" class="visible"><img class="img-fluid" src="../img/stamp.png" alt="stamp"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

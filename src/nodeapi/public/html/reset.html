@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src_css/style-reset.css">
+    <title>Reset password</title>
+</head>
+<body><div class="h1 mt-2 mb-5" id="page-title">Forgot password<img width="100" height="100" src="../img/ThinkingBrain.png">
+</div>
+
+<div class="container-fluid">
+    <label for="validationCustomUsername" class="form-label">Email</label>
+    <div class="input-group has-validation">
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+            required>
+    </div>
+
+</div>
+<div class="container-fluid text-center my-5">
+    <div class="row row-cols-1 row-cols-md-3 align-items-center" id="content-index">
+        <button type="reset" style="cursor: pointer;"><img src="../img/reset.png" alt="reset" onclick="resetPassword()"></button>
+        OR
+        <button><a href="./signin.html"><img src="../img/enter.png" alt="Log-In"></a></button>
+    </div>
+    <h2></h2>
+</div>
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>

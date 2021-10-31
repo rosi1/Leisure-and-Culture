@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+html{
+    min-height: 100vh;
+}
+
+body {
+    background-image: linear-gradient( gray, pink);
+    font-family: 'Bangers', cursive;
+    animation: fadeIn linear 5s;
+        -webkit-animation: fadeIn linear 5s;
+        -moz-animation: fadeIn linear 5s;
+        -o-animation: fadeIn linear 5s;
+        -ms-animation: fadeIn linear 5s;
+    }
+    
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: black;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding: 8px 18px;
+    text-decoration: none;
+    user-select: none;
+}
+
+header ul li a.active,
+header ul li a:hover {
+    background: rgba(194, 154, 154, 0.2);
+    color:#F7A3B0;
+    border-bottom: 1px solid;
+    border-radius: 30px;
+    transform: translateY(-5px);
+}
+
+.navbar-toggler {
+    border-color: black;
+    border-width: medium;
+}
+
+#Books{
+    transform: translateY(-1000px);
+    animation: animate1 2.2s forwards ease-in-out;
+}
+@keyframes animate1 {
+    
+    to{
+        transform: translateY(0);
+    }
+}
+#Movies{
+    transform: translateY(-1000px);
+    animation: animate1 3.2s forwards ease-in-out;
+}
+@keyframes animate1 {
+    
+    to{
+        transform: translateY(0);
+    }
+}
+#Games{
+    transform: translateY(-1000px);
+    animation: animate1 4.2s forwards ease-in-out;
+}
+@keyframes animate1 {
+    
+    to{
+        transform: translateY(0);
+    }
+}

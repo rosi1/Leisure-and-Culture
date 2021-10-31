@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+*{
+  margin-top: 5px;
+  padding: 0;
+}
+
+body {
+    font-family: 'Bangers', cursive;
+    background: radial-gradient(#dae2f8,#d6a4a4);
+    height: 100vh;
+}
+h1{
+  font-size: 5em;
+  position: absolute;
+  top: 0;
+  margin-left: 45%;
+  text-decoration-line: underline;
+}
+#imgtop, #imgbottom{
+  height: 150px;
+  width: 200px;
+}
+#imgbottom{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+h2:hover{
+  color: rgb(194, 50, 50);
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  
+  {
+    #innerContainer{
+      display: grid;
+      grid-template-columns: repeat(2,auto);
+      grid-column-gap: 30px;
+      /* grid-template-columns: none; */
+      justify-content: center;
+    }
+}

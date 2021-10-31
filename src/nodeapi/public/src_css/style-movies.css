@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+body {
+    font-family: 'Bangers', cursive;
+    background-image: linear-gradient(green, gray);
+    min-height: 100vh;
+    animation: fadeIn linear 4s;
+        -webkit-animation: fadeIn linear 4s;
+        -moz-animation: fadeIn linear 4s;
+        -o-animation: fadeIn linear 4s;
+        -ms-animation: fadeIn linear 4s;
+    }
+    
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+header ul li a.active,
+header ul li a:hover {
+    background: none;
+    color: rgb(142, 219, 17);
+}

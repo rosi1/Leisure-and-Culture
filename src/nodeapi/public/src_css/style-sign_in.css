@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+body {
+    background: radial-gradient(rgba(216,178,191,0.5),rgba(160, 132, 142, 0.7));
+    font-family: 'Bangers', cursive;
+    height: 100vh;
+    text-align: center;
+}
+
+#page-title {
+    color: rgb(171, 126, 126);
+    font-size: 40px;
+}
+
+.container-fluid {
+    width: 25%;
+}
+
+#failure{
+    color:rgb(235, 150, 178);
+    font-size: 20px;
+    display: none;
+}
+
+button{
+    border: none;
+    padding: 0;
+    background: none;
+    margin: 2% 5% 5%;
+}
+.form-label{
+    font-size:20px;
+} 
+.form-control{
+    border-radius: 20px;
+    background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3));
+}

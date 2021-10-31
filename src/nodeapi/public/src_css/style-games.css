@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+body {
+    font-family: 'Bangers', cursive;
+    background: #F0C27B;
+    background: -webkit-linear-gradient(to top, #4B1248, #F0C27B); 
+    background: linear-gradient(to top, #4B1248, #F0C27B); 
+
+    height: 100vh;
+    animation: fadeIn linear 4s;
+        -webkit-animation: fadeIn linear 4s;
+        -moz-animation: fadeIn linear 4s;
+        -o-animation: fadeIn linear 4s;
+        -ms-animation: fadeIn linear 4s;
+    }
+    
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+header ul li a.active,
+header ul li a:hover {
+    background: none;
+    color: #4b0845;
+}
+
+.container {
+    position: relative;
+    right: 7%;
+  }
+
+#start-button{
+    height: 250px;
+    width: 250px;
+    border: none;
+    background: none;
+    opacity: 0.8;
+    position: relative;
+    top: 500px;
+}
+
+#score-button{
+    height: 250px;
+    width: 300px;
+    border: none;
+    background: none;
+    opacity: 0.8;
+    position: relative;
+}
+
+#start-button:hover , #score-button:hover{
+    opacity:1;  
+}
+
+
+@media screen 
+  and (min-device-width: 1000px) 
+  and (max-device-width: 1600px) 
+  {
+  #score-button{
+    height: 150px;
+    width: 220px;
+}
+#start-button{
+    height: 180px;
+    width: 200px;
+    top: 290px;
+}
+.img-fluid{
+    height: 270px;
+    width: 200px;
+    /* left: 150px; */
+}
+}

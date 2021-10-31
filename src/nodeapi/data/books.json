@@ -1,0 +1,147 @@
+[
+    {
+        "title" : "The notebook",
+        "id" : "1",
+        "category" : "Romance, Drama",
+        "author" : "Nicholas Sparks",
+        "year" : "1996", 
+        "summary" : "A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences.",
+        "imagePath" : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483183484l/33648131._SY475_.jpg"
+    },{
+        "title" : "Fifty shades of grey",
+        "id" : "2",
+        "category" : "Romance",
+        "author" : "E. L. James",
+        "year" : "2011", 
+        "summary" : "When college senior Anastasia Steele steps in for her sick roommate to interview prominent businessman Christian Grey for their campus paper, little does she realize the path her life will take. Christian, as enigmatic as he is rich and powerful, finds himself strangely drawn to Ana, and she to him. Though sexually inexperienced, Ana plunges headlong into an affair -- and learns that Christian's true sexual proclivities push the boundaries of pain and pleasure.",
+        "imagePath" : "https://images-na.ssl-images-amazon.com/images/I/81xsanmYaWL.jpg"
+    },{
+        "title" : "Every breath",
+        "id" : "3",
+        "category" : "romance",
+        "author" : "Nicholas Sparks",
+        "year" : "2018", 
+        "summary" : "Illuminating life's heartbreaking regrets and enduring hope, Every Breath explores the many facets of love that lay claim to our deepest loyalties—and asks the question, How long can a dream survive? “The destiny that matters most in anyone's life is the one concerning love.”",
+        "imagePath" : "https://nicholassparks.com/wp-content/uploads/2018/03/Every-Breath-1000-680x1000.jpg"
+    },{
+        "title" : "The silent wife",
+        "id" : "4",
+        "category" : "drama",
+        "author" : "Kerry Fisher",
+        "year" : "2017", 
+        "summary" : "Maggie is married to Massimo's brother Nico and lives with him and her troubled stepdaughter. She knows all of Nico's darkest secrets – or so she thinks. The one day she discovers a letter in the attic which reveals a shocking secret about Nico's first wife Caitlin.",
+        "imagePath" : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486387357l/33225794._SY475_.jpg"
+    },{
+        "title" : "The things we cannot say",
+        "id" : "5",
+        "category" : "drama",
+        "author" : "Kelly Rimmer",
+        "year" : "2019", 
+        "summary" : "Life changed beyond recognition for Alice when her son, Eddie, was born with autism spectrum disorder. She must do everything to support him, but at what cost to her family? When her cherished grandmother is hospitalised, a hidden box of mementoes reveals a tattered photo of a young man, a tiny leather shoe and a letter.",
+        "imagePath" : "https://images.squarespace-cdn.com/content/v1/5d03c47371b71700018b9365/1579787359365-8KB67K1BVQNT1UQBBJAS/IMG_8896.jpg"
+    },{
+        "title" : "Behind closed doors",
+        "id" : "6",
+        "category" : "drama",
+        "author" : "B.A. Paris",
+        "year" : "2016", 
+        "summary" : "Everyone knows a couple like Jack and Grace. He has looks and wealth, she has charm and elegance.",
+        "imagePath" : "https://i.harperapps.com/hcanz/covers/9781489253361/x293.jpg"
+    },{
+        "title" : "IT",
+        "id" : "7",
+        "category" : "horror",
+        "author" : "Stephen King",
+        "year" : "1986", 
+        "summary" : "The story follows the experiences of seven children as they are terrorized by an evil entity that exploits the fears of its victims to disguise itself while hunting its prey",
+        "imagePath" : "https://cdna.artstation.com/p/assets/images/images/009/360/872/large/luca-lonardi-cover-it-nologo.jpg"
+    },{
+        "title" : "Some will not sleep",
+        "id" : "8",
+        "category" : "horror",
+        "author" : "Adam L.G.",
+        "year" : "2017", 
+        "summary" : "A bestial face appears at windows in the night.In the big white house on the hill angels are said to appear.A forgotten tenant in an isolated building becomes addicted to milk.",
+        "imagePath" : "https://images-na.ssl-images-amazon.com/images/I/41d0ImkcP0L._SX322_BO1,204,203,200_.jpg"
+    },{
+        "title" : "The suffering",
+        "id" : "9",
+        "category" : "horror",
+        "author" : "Rin chupeco",
+        "year" : "1991", 
+        "summary" : "Seventeen-year-old Tark knows what it is to be powerless. But Okiku changed that. A restless spirit who ended life as a victim and started death as an avenger, she's groomed Tark to destroy the wicked.",
+        "imagePath" : "https://kbimages1-a.akamaihd.net/7f90dfe6-0df2-4f11-a09f-6ce15352a6fd/353/569/90/False/the-suffering-1.jpg"
+    }, {  
+		"title" : "The Little Mermaid",
+        "id" : "10",
+        "category" : "fairy",
+        "author" : "Hans Christian Andersen",
+        "year" : "1837", 
+        "summary" : "The story of a mermaid princess named Ariel, who dreams of becoming human and falls in love with a human prince named Eric, which leads her to make a magic deal with the sea witch, Ursula, to become human and be with him. ",
+        "imagePath" : "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/35336/DIG002715_1._SX360_QL80_TTD_.jpg"
+    },{
+        "title" : "Mulan",
+        "id" : "11",
+        "category" : "fairy",
+        "author" : "Robert D. San Souci ",
+        "year" : "1837", 
+        "summary" : "The Huns, who are led by the ruthless Shan Yu, invade imperial Han China by breaching the Great Wall. In the Imperial City, the Emperor orders a general mobilization, with conscription notices requiring one man from each family to join the Imperial Chinese Army. To the South, Fa Mulan is an adventurous and active young women to the dismay of her family, who hope for her to bring honour to the family. She is arranged to meet a matchmaker to demonstrate her fitness as a future wife; but following a few mishaps, the matchmaker deems her a disgrace to the family. ",
+        "imagePath" : "https://images-na.ssl-images-amazon.com/images/I/71ZTdAMFooL.jpg"
+    },{
+        "title" : "Harry Potter",
+        "id" : "12",
+        "category" : "Sci-Fi",
+        "author" : "J. K. Rowling",
+        "year" : "1997", 
+        "summary" : "The central character in the series is Harry Potter, a boy who lives in the fictional town of Little Whinging, Surrey with his aunt, uncle, and cousin – the Dursleys – and discovers at the age of eleven that he is a wizard, though he lives in the ordinary world of non-magical people known as Muggles.The wizarding world exists parallel to the Muggle world, albeit hidden and in secrecy. His magical ability is inborn, and children with such abilities are invited to attend exclusive magic schools that teach the necessary skills to succeed in the wizarding world.",
+        "imagePath" : "https://images-na.ssl-images-amazon.com/images/I/91ocU8970hL.jpg"
+    },{
+        "title" : "The Chosen Ones",
+        "id" : "13",
+        "category" : "Sci-Fi",
+        "author" : "Scarlett Thomas",
+        "year" : "2019", 
+        "summary" : "When Effie and Maximilian both mysteriously vanish, friends Raven, Lexy and Wolf don't know where to turn for help. Effie is in deep danger and she's running out of time. To make things worse, Raven's mother is caught up in a plot with the ruthless billionaire Albion Freake, who will stop at nothing to become invincible.",
+        "imagePath" : "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/7821/9781782119326.jpg"
+	}, {
+        "title" : "The Boy, the Mole, the Fox and the Horse",
+        "id" : "14",
+        "category" : "Comics",
+        "author" : "Charlie Mackesy",
+        "year" : "2019", 
+        "summary" : "The Boy, The Mole, The Fox And The Horse is a 2019 bestselling illustrated book by Charlie Mackesy. It follows the developing friendship between the four protagonists of the title. It is the 2019 Waterstones Book of the Year.",
+        "imagePath" : "https://cdn.waterstones.com/bookjackets/large/9781/5291/9781529105100.jpg"
+    },{
+        "title" : "Hansel and Gretel",
+        "id" : "15",
+        "category" : "Fairy-tale",
+        "author" : "Brothers Grimm",
+        "year" : "1812", 
+        "summary" : "Hansel and Gretel is a German fairy tale collected by the Brothers Grimm and published in 1812 in Grimm's Fairy Tales. Hansel and Gretel are a brother and sister abandoned in a forest, where they fall into the hands of a witch who lives in a house made of gingerbread, cake, and pastries.",
+        "imagePath" : "https://www.pookpress.co.uk/wp-content/uploads/2015/05/HanselandGrethel_Rackham_4.jpg"
+    },{
+        "title" : "The Hitchhiker's Guide To The Galaxy",
+        "id" : "16",
+        "category" : "Sci-Fi",
+        "author" : "Douglas Adams",
+        "year" : "1979", 
+        "summary" : "In the first, hilarious volume of Adams' Hitchhiker's series, reluctant galactic traveler Arthur Dent gets swept up in some literally Earth-shattering events involving aliens, sperm whales, a depressed robot, mice who are more than they seem, and some really, really bad poetry.",
+        "imagePath" : "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/b7fb4373041469.5bfc927a78048.jpg"
+    },{
+        "title" : "Batman: The Killing Joke",
+        "id" : "17",
+        "category" : "Comics",
+        "author" : "Alan Moore",
+        "year" : "1988", 
+        "summary" : "Batman: The Killing Joke is a 1988 DC Comics one-shot graphic novel featuring the characters Batman and the Joker written by Alan Moore and illustrated by Brian Bolland. The Killing Joke provides an origin story for the supervillain the Joker, loosely adapted from the 1951 story arc 'The Man Behind the Red Hood!'.",
+        "imagePath" : "https://media.titanbooks.com/catalog/products/9509/Killing_Joke.jpg"
+    },{
+        "title" : "Berserk Volume 1",
+        "id" : "18",
+        "category" : "Comics",
+        "author" : "Kentaro Miura",
+        "year" : "1990", 
+        "summary" : "Created by Kentaro Miura, Berserk is manga mayhem to the extreme - violent, horrifying, and mercilessly funny - and the wellspring for the internationally popular anime series. Not for the squeamish or the easily offended, Berserk asks for no quarter - and offers none!",
+        "imagePath" : "https://cdn.shopify.com/s/files/1/0882/5118/products/Berserk-Vol-1-Manga-2177746_1024x1024.jpg"
+    }
+] 

@@ -1,0 +1,77 @@
+
+html{
+    height: 100vh;
+}
+body{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(212,255,255), rgb(233,50,130));
+} 
+
+
+header ul li a.active,
+header ul li a:hover {
+    background: none;
+    color: rgb(12,167,255);
+    border-radius: 30px;
+    transform: translateY(-5px);
+}
+
+.navbar-toggler {
+    border-color: black;
+    border-width: medium;
+}
+
+.wrapper {
+    position: absolute;
+    transform: translateX(-1000px);
+    padding: 0 20px;
+    width: 60%;
+    animation: animate1 3s forwards ease-in-out;
+}
+@keyframes animate1 {
+    
+    to{
+        transform: translateX(0);
+        top:30%;
+        left: 10%;
+    }
+}
+
+h5{
+    color: rgb(12,167,255);
+    position: relative;
+    top:20%;
+    left: 47%;
+}
+
+#photo{
+    height: 100%;
+    width: 100%;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border: solid;
+    border-radius: 50%;
+}
+
+
+#file{
+    display: none;
+
+}
+
+#uploadBtn{
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+#profileName, #profileLastName, #phoneNumber,#emailAddress{
+    background: none;
+    
+}
+#update-prof{
+    cursor: pointer;
+    margin-top: 15%;
+    background: radial-gradient(rgb(212,255,255), rgb(233,50,130));
+    
+} 

@@ -1,0 +1,86 @@
+    @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+    body {
+        font-family: 'Bangers', cursive;
+        /* background-image: linear-gradient( gray, pink); */
+        background-repeat: no-repeat;
+        background-image: repeating-linear-gradient(gray, pink);
+        height: 100vh;
+        animation: fadeIn linear 5s;
+        -webkit-animation: fadeIn linear 5s;
+        -moz-animation: fadeIn linear 5s;
+        -o-animation: fadeIn linear 5s;
+        -ms-animation: fadeIn linear 5s;
+    }
+    
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+    
+    .h4{
+        color: black;
+        /* transform: translateY(-1000px);
+        animation: animate1 4.2s forwards ease-in-out;
+    }
+    @keyframes animate1 {
+        
+        to{
+            transform: rotateY(150deg);
+        } */
+    }
+    .h4:hover {
+        /* background-image: linear-gradient( rgb(207, 131, 144), pink); */
+        color: rgb(207, 131, 144);
+        border-radius: 20%;
+    }
+    /* .logo {
+        animation: fadeInOut 5s;
+        -webkit-animation: fadeIn 5s;
+        -moz-animation: fadeIn 5s;
+        -o-animation: fadeIn 5s;
+        -ms-animation: fadeIn 5s;
+      }
+      @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      } */
